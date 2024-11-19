@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gstatic', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100wh;
+    font-family: sans-serif;
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700315819.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background: #059bf1cb;
+    color: #ffffff;
+    text-align: center;
+    height: 80px;
+}
+
+header h1{
+    margin-bottom: 0.5rem;
+    font-size: 50px;
+}
+
+.caixa-maior {
+    background-color: #e2e2e2e8;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 950px;
+    max-width: 450px;
+    color: #000000ec;
+    transform: translate(163%, 90%);
+    
+   
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #059af14b;
+    color: rgba(0, 0, 0, 0.856);
+    width: calc(100% - 100px);
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:#059af14b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+    width: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: rgb(5, 5, 5);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
