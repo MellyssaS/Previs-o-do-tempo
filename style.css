@@ -99,3 +99,9 @@ header h1{
     margin-top: 20px;
 }
 
+footer{
+    color: rgb(255, 255, 255);
+    background-color: #059af171;
+    transform: translate(0%, 1498%);
+}
+
